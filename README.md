@@ -46,6 +46,8 @@ Our solutions contain two parts: Linear regression and clustering.
     - The following graphs are the comparison between unemployment rate and median household income 
     - ![](./images/cluster3.png)
     - ![](./images/cluster4.png)
+    - The following graph shows how many elements are there in each cluster
+    - ![](./images/cluster5.png)
 
 
 ## Data Interpretation 
@@ -57,7 +59,8 @@ Our solutions contain two parts: Linear regression and clustering.
 
 # Future Suggestion 
 
-- Improve the employment rate by implementing different projects from a mayor's perspective, which could finally enhance the average household income in the city 
+- Improve the employment rate by implementing different projects could finally enhance the average household income in the city. 
+- Since population density would also contribute to the median household income, we also do more research in how to use resources in a more efficient way to improve the total profit we can get. More data related to this topic may help to find out the optimal solution.
 
 
 
