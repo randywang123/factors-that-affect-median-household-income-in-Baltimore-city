@@ -68,7 +68,7 @@ Our solutions contain two parts: Linear regression and clustering.
 
 - Improve the employment rate by implementing different projects could finally enhance the average household income in the city. As vehicle ownership is more likely to be influenced by employment and income, we would not recommend giving out cars to Baltimore City residents in hope of increasing the median houshold income. However, exploring new policies towards increasing the employment rate would significantly improve the median household income closer to the national average.
 
-- Since population density would also contribute to the median household income, we also do more research in how to use resources in a more efficient way to improve the total profit we can get. As it appears now, population density appears to have a slight impact on median household income, but further research could improve results. More data related to this topic may help to find out the optimal solution to utilizing population density as a factor of improving median household income.
+- Since population density would also contribute to the median household income, we could do more research in how to use resources in a more efficient way to improve the total profit we can get. As it appears now, population density appears to have a slight impact on median household income, but further research could improve results. More data related to this topic may help to find out the optimal solution to utilizing population density as a factor of improving median household income.
 
 
 
