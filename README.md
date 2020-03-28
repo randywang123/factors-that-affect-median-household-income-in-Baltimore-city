@@ -1,7 +1,7 @@
 # Factors that affect the median household income in Baltimore city
 
 # Summary 
-There are many factors that can affect the median household income in Baltimore City: population density, employement rate, percentage of high-school degree, diversity and percentage of car ownership. The main business question of this project is to find which one or some of them may have the main influence on the overall outcome and give some advice to improve the household income based on the result. 
+There are many factors that can affect the median household income in Baltimore City: population density, employement rate, percentage of high-school degree, diversity and percentage of car ownership. The main business question of this project is to find which one or some of them may have the main influence on the overall outcome and give some advice to improve the household income based on the result; as in the case of Baltimore, the median household income is more than $10,000 below the national average. Realizing which factors affect the median household income could help with future policy changes in order to raise Baltimore's median closer to the national average.
 
 # Challenge 
 
