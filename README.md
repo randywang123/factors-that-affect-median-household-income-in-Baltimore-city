@@ -31,8 +31,8 @@ This problem is challenging because there are many different factors that can af
 Our solutions contain two parts: Linear regression and clustering. 
 
 - Linear regression: 
-    - In this section, we created logistic regressions using the data we found. Altogether, it took us six attempts to find the best linear regression; with the first testing all five variables, ultimately showing that DiversityIndex and PercentNoHSDiploma were not statistically significant. The next two trials were testing out if one was statistically significant without the other, which was to no avail. Trial four found that PercentNoVehicle, PopDensity, and Unemployed were statistically significant. However, the coefficient for PopDensity was nearly zero, so we attempted the linear regression without it. At this time, we also decided to convert PercentNoVehicle to PercentVehicle and Unemployed to Employed. Trial five found that the R Square value dropped, so PopDensity was added back in. Thus, the final linear regression included: PercentVehicle, Employed, and PopDensity.
-    - Please check the `Regression Models` for more details
+    - In this section, we created logistic regressions using the data we found. Altogether, it took us six attempts to find the best linear regression; with the first testing all five variables, ultimately showing that DiversityIndex and PercentNoHSDiploma were not statistically significant. The next two trials were testing out if one was statistically significant without the other, which was to no avail. Trial four found that PercentNoVehicle, PopDensity, and Unemployed were statistically significant. However, the coefficient for PopDensity was nearly zero, so we attempted the linear regression without it. At this time, we also decided to convert PercentNoVehicle to PercentVehicle and Unemployed to Employed. Trial five found that the R Square value dropped, so PopDensity was added back in. Thus, the final linear regression included: PercentVehicle, Employed, and PopDensity. Additionally, we found the correlation between the variables.
+    - Please check the `Regression Models Folder` for more details
 - Clustering: 
     - In this section, we implemented the clustering algorithm based on z-values for all of those five factors. The way we select anchors is based on the median household income. We select four anchors according to the quartile: 25%, 50%, 75% and 100%. Then, we compared the z-values to those four anchors and assign the record to the minimum value from four results. Use Excel Solver to test the result and make sure that everything is correct. 
      - Please check the `Clustering.xlsx` for more details
@@ -41,8 +41,10 @@ Our solutions contain two parts: Linear regression and clustering.
 - Linear regression:
     - Image 1 - Linear Regression Model of DiversityIndex, PercentNoHSDiploma, PercentNoVehicle, PopDensity, & Unemployed's Influence on Median Household Income
     - ![](./images/RegressionModel_Trial.PNG)
-    - Image 1 - Linear Regression Model of PercentVehicle, PopDensity, & Employed's Influence on Median Household Income
+    - Image 2 - Linear Regression Model of PercentVehicle, PopDensity, & Employed's Influence on Median Household Income
     - ![](./images/RegressionModel_Final.PNG)
+    - Image 3 - Correlation of Each Variable
+    - ![](./images/Correlation.PNG)
 - Clustering: 
     - The following graphs are the comparision between the no vehicle rate and median household income 
     - ![](./images/cluster1.png)
