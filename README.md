@@ -39,7 +39,10 @@ Our solutions contain two parts: Linear regression and clustering.
 
 ## Data Visualization 
 - Linear regression:
-
+    - Image 1 - Linear Regression Model of DiversityIndex, PercentNoHSDiploma, PercentNoVehicle, PopDensity, & Unemployed's Influence on Median Household Income
+    - ![](./images/RegressionModel_Trial.PNG)
+    - Image 1 - Linear Regression Model of PercentVehicle, PopDensity, & Employed's Influence on Median Household Income
+    - ![](./images/RegressionModel_Final.PNG)
 - Clustering: 
     - The following graphs are the comparision between the no vehicle rate and median household income 
     - ![](./images/cluster1.png)
